@@ -22,18 +22,16 @@ def calcRegression(x, y, codeName):
         if __name__ == '__main__' and n % 100 == 0:
             print(f"{n} // loss : {cost}, weight : {weight}, bias : {bias}")
 
-    print(f"{codeName} 비용 함수 오차 그래프 출력중...")
-    
-    #if __name__ == '__main__':
-    plt.figure(figsize=(20,10))
-    plt.plot(iterCount, hy, 'r', label='Cost Function')
+    if __name__ == '__main__':
+        print(f"{codeName} 비용 함수 오차 그래프 출력중...")
+        plt.figure(figsize=(20,10))
+        plt.plot(iterCount, hy, 'r', label='Cost Function')
 
-    plt.title(f"{codeName} 비용 함수 오차 시각화")
-    plt.xlabel("반복 횟수")
-    plt.ylabel("오차 값")
-    plt.xlim(0, iteration)
-    plt.legend(loc='upper right')
-    #plt.show()
+        plt.title(f"{codeName} 비용 함수 오차 시각화")
+        plt.xlabel("반복 횟수")
+        plt.ylabel("오차 값")
+        plt.xlim(0, iteration)
+        plt.legend(loc='upper right')
 
     ret = weight * x + bias
     return ret
