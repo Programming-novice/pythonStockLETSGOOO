@@ -5,9 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2d1f7436-4fb8-431e-9fee-23eebda884a4" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/Kiwoom/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kiwoom/kiwooomMain.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearModel/linearRegression.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearModel/linearRegression.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/linearModel/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearModel/linearMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiwoom/kiwooomMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kiwoom/kiwooomMain.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiwoom/priceCutting.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kiwoom/priceCutting.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Kiwoom/priceTable.py" beforeDir="false" afterPath="$PROJECT_DIR$/Kiwoom/priceTable.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/linearModel/linearMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/linearModel/linearMain.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,26 +29,27 @@
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 3
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
   <component name="ProjectId" id="2k7NrcBSS8B67EK4vp4J2vSVOEd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.kiwooomMain.executor": "Debug",
-    "Python.linearMain.executor": "Debug",
-    "Python.main (1).executor": "Debug",
-    "Python.main.executor": "Debug",
-    "Python.stockInfoRq.executor": "Debug",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/samga/PycharmProjects",
-    "settings.editor.selected.configurable": "com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.kiwooomMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.linearMain.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main (1).executor&quot;: &quot;Debug&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.priceCutting.executor&quot;: &quot;Debug&quot;,
+    &quot;Python.stockInfoRq.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/samga/PycharmProjects&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.intellij.pycharm.community.ide.impl.configuration.PythonContentEntriesConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="Python.linearMain">
     <configuration name="kiwooomMain" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
@@ -92,6 +95,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="priceCutting" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="PycharmProjects" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Kiwoom" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Kiwoom/priceCutting.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="stockInfoRq" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="PycharmProjects" />
       <option name="ENV_FILES" value="" />
@@ -118,6 +143,7 @@
       <list>
         <item itemvalue="Python.linearMain" />
         <item itemvalue="Python.kiwooomMain" />
+        <item itemvalue="Python.priceCutting" />
         <item itemvalue="Python.stockInfoRq" />
       </list>
     </recent_temporary>

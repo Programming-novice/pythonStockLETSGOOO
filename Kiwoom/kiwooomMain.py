@@ -33,7 +33,19 @@ for x in code:
                               수정주가구분=1,
                               output="주식월봉차트조회",
                               next=0)
+    """
+    df2 = kiwoom.block_request("opt10083",
+                              종목코드=x,
+                              기준일자= df['일자'].iloc[-1],
+                              수정주가구분=1,
+                              output="주식월봉차트조회",
+                              next=0)
+    df2.index = [num + len(df) - 1 for num in range(len(df2))]
+    """
+
     out_name = f"{out_path}/{kiwoom.GetMasterCodeName(x)}.xlsx"
+
+    #mergeDf = pd.concat([df, df2.iloc[1:]])
     df.to_excel(out_name)
     time.sleep(3.6)
 
